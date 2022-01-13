@@ -22,6 +22,7 @@ public class HomeWork {
                 new Robot("A1", 50, 50),
                 new Robot("Z", 100, 30)};
         andJumping(moves, let);
+
     }
 
     public static void andJumping(Move[] moves, Object[] let) {
