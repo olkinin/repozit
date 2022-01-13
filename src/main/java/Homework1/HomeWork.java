@@ -43,6 +43,7 @@ public class HomeWork {
                     moves[i].run((Treadmill) let[j]);
                 } else if ((moves[i] instanceof Robot) && (let[j] instanceof Wall)) {
                     moves[i].jump((Wall) let[j]);
+
                 }
                 }
             }
