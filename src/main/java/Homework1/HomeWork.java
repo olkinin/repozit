@@ -25,7 +25,6 @@ public class HomeWork {
     }
 
     public static void andJumping(Move[] moves, Object[] let) {
-
         for (int i = 0; i < moves.length; i++) {
             for (int j = 0; j < let.length; j++) {
                 if ((moves[i] instanceof Human) && (let[j] instanceof Treadmill)) {
@@ -43,7 +42,6 @@ public class HomeWork {
                     moves[i].run((Treadmill) let[j]);
                 } else if ((moves[i] instanceof Robot) && (let[j] instanceof Wall)) {
                     moves[i].jump((Wall) let[j]);
-
                 }
                 }
             }
